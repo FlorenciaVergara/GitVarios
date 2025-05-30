@@ -1,0 +1,5 @@
+com\miempresa\proyecto\controller\RegistroController.class
+com\miempresa\proyecto\repository\RegistroRepository.class
+com\miempresa\proyecto\model\Registro.class
+com\miempresa\proyecto\ProyectoApplication.class
+com\miempresa\proyecto\service\CodigoService.class
