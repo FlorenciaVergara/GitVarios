@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
 @Entity
@@ -16,6 +17,7 @@ public class Registro {
     private String distrito;
 
     @ManyToOne
+    @JoinColumn(name = "tipo_registro", referencedColumnName = "nombre")
     private TipoRegistro tipoRegistro;
 
     public Registro() {
